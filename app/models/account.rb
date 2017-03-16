@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: accounts
+# Table name: public.accounts
 #
 #  id         :integer          not null, primary key
 #  subdomain  :string
@@ -13,6 +13,10 @@ class Account < ApplicationRecord
 	
 	RESTRICTED_SUBDOMAINS = %w(www)
 
+	belongs_to :owner, class_name: "User"
+	accepts_nested_attributes_for :owner 
+	
+	validates :owner, presence: true 
 	validates :subdomain, presence: true, 
 												uniqueness: { case_sensitive: false },
 												format: { with: /\A[\w\-]+\Z/i, message: "contains invalid characters" },
