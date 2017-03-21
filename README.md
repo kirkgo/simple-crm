@@ -42,7 +42,7 @@ Start the Rails Server
 $ rails server
 ````
 
-Point your browser to [lvh.me:3000](lvh.me:3000) and enjoy it! 
+Point your browser to [lvh.me:3000](http://lvh.me:3000) and enjoy it! 
 
 ## Pull-Requests! ##
 
