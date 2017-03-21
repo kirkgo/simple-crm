@@ -6,7 +6,7 @@ Although it sounds like an extremely simple concept don't be fooled by the appar
 
 Feel free to fork, change, modify and re-use it.
 
-# What is Multitenancy #
+# About Multitenancy #
 
 A single-tenant application is an application that is used by a single entity, be it a single user or a single company. It’s not important in this case that the data in this application be kept separate from the other data since all the data belongs to one entity.
 
