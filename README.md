@@ -23,7 +23,7 @@ $ bundler install
 
 ### How to use it ###
 
-Rename database.yml.sample to database.yml, create database and run all migrations
+Choose your database in *config/* and rename the file to *database.yml*. Run the commands below:
 
 ````
 $ rake db:create
@@ -40,7 +40,7 @@ Point your browser to [lvh.me:3000](lvh.me:3000) and enjoy it!
 
 ## Pull-Requests! ##
 
-This is an example how to use multitenancy in Rails and can definitely will be improved on. Pull requests are very much welcomed and desired. Don't be afraid. Just do it! :)
+This is an example how to use multitenancy in Rails and definitely can be improved. Pull requests are very much welcomed and desired. Don't be afraid. Just do it! :)
 
 
 ## Copyright & License ##
