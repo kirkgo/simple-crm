@@ -23,7 +23,13 @@ $ bundler install
 
 ### How to use it ###
 
-Choose your database in *config/* and rename the file to *database.yml*. Run the commands below:
+In *config/* folder you will find three examples of database.yml file: 
+
+* database.yml.postgresql for PostgreSQL
+* database.yml.mysql for MySQL
+* database.yml.sqlite for SQLite3
+
+Choose your database and rename the file to *database.yml*. Do not forget to uncomment the line referring to your database in Gemfile. After doing this, run the following commands: 
 
 ````
 $ rake db:create
