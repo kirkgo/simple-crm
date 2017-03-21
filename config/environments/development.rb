@@ -57,10 +57,10 @@ Rails.application.configure do
 
   # Action Mailer settings
   ActionMailer::Base.smtp_settings = {
-    user_name: ENV['SENDGRID_USERNAME'],
-    password: ENV['SENDGRID_PASSWORD'],
-    domain: 'localhost:3000',
-    address: 'smtp.sendgrid.net',
+    user_name: ENV['YOUR_PROVIDER_USERNAME'],
+    password: ENV['YOUR_PROVIDER_PASSWORD'],
+    domain: 'your_domain',
+    address: 'your_smtp_address',
     port: 587,
     authentication: :plain, 
     enable_starttls_auto: true
