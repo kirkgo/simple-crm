@@ -1,6 +1,6 @@
 # Simple CRM # 
 
-Simple CRM is an CRM made for companies that wish to manage their contacts among their team mates.
+Simple CRM is a CRM made for companies that wish to manage their contacts among their team mates.
 
 Although it sounds like an extremely simple concept don't be fooled by the apparent basic functionality. Under the hood this CRM uses a concept called multi-tenancy and in simple terms, it allows each company to have it's very own separate database to store its users and contacts.
 
@@ -36,15 +36,12 @@ Start the Rails Server
 $ rails server
 ````
 
-Point your browser to [lvh.me:3000][lvh.me:3000] and enjoy it! 
+Point your browser to [lvh.me:3000](lvh.me:3000) and enjoy it! 
 
 ## Pull-Requests! ##
 
 This is an example how to use multitenancy in Rails and can definitely will be improved on. Pull requests are very much welcomed and desired. Don't be afraid. Just do it! :)
 
-## Demo ##
-
-This is the theme currently powering the site at [kirk-patrick.com](http://kirk-patrick.com)
 
 ## Copyright & License ##
 
