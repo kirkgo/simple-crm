@@ -6,7 +6,7 @@ Although it sounds like an extremely simple concept don't be fooled by the appar
 
 Feel free to fork, change, modify and re-use it.
 
-# About Multitenancy #
+# About Multi-tenancy #
 
 A single-tenant application is an application that is used by a single entity, be it a single user or a single company. It’s not important in this case that the data in this application be kept separate from the other data since all the data belongs to one entity.
 
@@ -23,7 +23,7 @@ $ bundler install
 
 ### How to use it ###
 
-In *config/* folder you will find three examples of database.yml file: 
+In *config* folder you will find three samples of *database.yml* file: 
 
 * database.yml.postgresql for PostgreSQL
 * database.yml.mysql for MySQL
@@ -36,7 +36,7 @@ $ rake db:create
 $ rake db:migrate
 ````
 
-Start the Rails Server
+Start the Rails Server running the command below: 
 
 ````
 $ rails server
