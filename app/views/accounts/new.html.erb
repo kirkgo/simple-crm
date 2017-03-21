@@ -4,11 +4,11 @@
 
 		<%= simple_form_for @account do |f| %>
 			<%= f.fields_for :owner do |o| %>
-				<%= f.input :name, class: "form-control", required: true, label: "Your Name" %>
-				<%= f.input :email, class: "form-control", require: true, label: "Email" %>
-				<%= f.input :password, class: "form-control", required: true, label: "Password" %>
-				<%= f.input :password_confirmation, class: "form-control", required: true, label: "Password Confirmation" %>
-			<%= end %>
+				<%= o.input :name, class: "form-control", required: true, label: "Your Name" %>
+				<%= o.input :email, class: "form-control", require: true, label: "Email" %>
+				<%= o.input :password, class: "form-control", required: true, label: "Password" %>
+				<%= o.input :password_confirmation, class: "form-control", required: true, label: "Password Confirmation" %>
+			<% end %>
 			<%= f.label :subdomain %>
 			<div class="input-group">
 				<%= f.input :subdomain, class: 'form-control', label: false %>
